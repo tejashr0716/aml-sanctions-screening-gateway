@@ -1,0 +1,11 @@
+{
+  "project": "aml-sanctions-screening-gateway",
+  "timestamp": "2026-10-24T08:18:36.472111+00:00",
+  "total_tests": 32,
+  "passed": 32,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "pass_rate_percent": 100.0,
+  "duration_seconds": 0.396
+}

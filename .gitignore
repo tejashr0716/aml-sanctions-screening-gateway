@@ -1,0 +1,35 @@
+# Environment variables
+.env
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database files
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs & temp
+logs/
+*.log
+.DS_Store

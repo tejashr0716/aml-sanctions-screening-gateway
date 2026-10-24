@@ -1,0 +1,28 @@
+{
+  "benchmark": "AML Sanctions Screening Gateway Ingestion & Matching",
+  "timestamp": "2026-10-24T08:18:23.821484+00:00",
+  "total_screenings": 500,
+  "total_entities_indexed": 1011,
+  "total_duration_seconds": 7.366,
+  "throughput_screenings_per_sec": 67.88,
+  "matching_engine_latency_ms": {
+    "min": 0.028,
+    "mean": 12.699,
+    "p50": 15.404,
+    "p95": 19.569,
+    "p99": 20.264,
+    "max": 31.414
+  },
+  "end_to_end_audit_latency_ms": {
+    "min": 1.315,
+    "mean": 14.727,
+    "p50": 17.446,
+    "p95": 21.767,
+    "p99": 22.847,
+    "max": 34.638
+  },
+  "target_compliance": {
+    "matching_engine_p95_under_15ms": false,
+    "zero_dropped_requests": true
+  }
+}
